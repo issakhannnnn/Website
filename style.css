@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #081b29;
+}
+
+/* //NAVBAR// */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    margin-left: 150px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar .nav-items {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 150px;
+}
+
+.navbar .nav-items a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/* .navbar .nav-items a:hover {
+    color: blue;
+    transition: 0.9s;
+} */
+
+/* //NAVBAR// */
+
+/* //ABOUTME// */
+.details {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.details h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.details h3 {
+    color: #00abf0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.details p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.details a {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+/* //ABOUTME// */
